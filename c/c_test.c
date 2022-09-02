@@ -7,6 +7,6 @@ char * my_method() {
 
 int main() {
     char * my_pointer = my_method();
-    sprintf("%s", *my_pointer);
+    printf("\nOUTPUT: \n%s \n\n", my_pointer);
     return 0;
 }
